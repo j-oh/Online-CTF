@@ -1,4 +1,4 @@
-# NetGame
+# Online CTF (NetGame)
 C# + Monogame online multiplayer test
 
 KNOWN BUGS:
@@ -10,3 +10,5 @@ KNOWN BUGS:
 - sometimes crashes when starting new game
 - chat messages go beyond bounds if message is too long
 - player animations run faster with more players
+
+Created in 2017, reuploading for archival sake.
