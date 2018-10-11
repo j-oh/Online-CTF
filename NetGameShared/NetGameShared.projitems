@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>c9ff9aa2-edc9-4fa0-9d54-e54ac5d27fa7</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>NetGameShared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Camera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CollideObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Collision.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FallingBlock.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interval.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemDrop.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Map.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mob.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Quadtree.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ResourceManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sprite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Universal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)packages.config" />
+  </ItemGroup>
+</Project>

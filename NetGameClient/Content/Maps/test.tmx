@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" nextobjectid="32">
+ <properties>
+  <property name="Name" value="Test Map"/>
+  <property name="mapmeta" value="mapvalue"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="tiles.png" trans="ff00ff" width="512" height="512"/>
+ </tileset>
+ <layer name="Background" width="20" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMgqEBAGlKTgywBAAA
+  </data>
+ </layer>
+ <layer name="Foreground" width="20" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAW0BIxAzATEzFQyTxCIhYBYmErmKQKxEhArU8k8XICFARIWxIQDCwF5EahZILfT2t2kAGL9RwwAhQEorgnFMyx9EYOFoBiXPDMDIn1RA4PcDktf1MCguAYACNcnTrAEAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects"/>
+</map>

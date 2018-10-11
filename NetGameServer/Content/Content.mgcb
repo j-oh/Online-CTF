@@ -1,0 +1,48 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:../bin/Debug/Content
+/intermediateDir:../obj/Debug/Content
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Fonts/font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:TextureFormat=Compressed
+/build:Fonts/font.spritefont
+
+#begin Maps/tilesheet.png
+/copy:Maps/tilesheet.png
+
+#begin Maps/islands.png
+/copy:Maps/islands.png
+
+#begin Maps/test.png
+/copy:Maps/test.png
+
+#begin Maps/bridges.png
+/copy:Maps/bridges.png
+
+#begin Maps/circle.png
+/copy:Maps/circle.png
+
+#begin Maps/pillars.png
+/copy:Maps/pillars.png
+
+#begin Maps/ufo.png
+/copy:Maps/ufo.png
+
+#begin Maps/stresstest.png
+/copy:Maps/stresstest.png
+
+#begin Maps/tunnel.png
+/copy:Maps/tunnel.png
+
